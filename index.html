@@ -21,7 +21,6 @@
         }
 
         function authenticate() {
-            alert(window.location.href);
             // We pass you the URL of our conversation window as a querystring value called 'redirect_uri' - read this value
             var chatURL = getURLParam("redirect_uri");
             var state = getURLParam("state");
